@@ -1,9 +1,11 @@
 {
   "name": "jerbil-website",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Jerbil is a simple CMS that applies html templates to markdown text files. Its a nice easy way to make websites.",
-  "bin": "java -jar ./bin/jerbil-all.jar",
-  "scripts": {
+  "bin": {
+		"jerbil": "bin/run-jerbil.js"
+  },
+  "scripts": {		
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/winterstein/jerbil-website/issues"
   },
-  "homepage": "https://github.com/winterstein/jerbil-website#readme"
+  "homepage": "https://github.com/winterstein/jerbil-website#readme",
+  "dependencies": {
+    "shelljs": "^0.8.2"
+  }
 }
